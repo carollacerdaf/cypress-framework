@@ -6,7 +6,7 @@ export default {
 
 /// <reference types="Cypress" />
 
-export default class Cypress {
+module.exports = class Cypress {
 
     _cy = cy;
 
